@@ -1,0 +1,15 @@
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\bin\Debug\Data Binding Combo Box - Enum.exe.config
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\bin\Debug\Data Binding Combo Box - Enum.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\bin\Debug\Data Binding Combo Box - Enum.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.csprojAssemblyReference.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\MainWindow.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\App.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum_MarkupCompile.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum_MarkupCompile.lref
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\MainWindow.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.g.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data_Binding_Combo_Box___Enum.Properties.Resources.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.csproj.GenerateResource.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.csproj.CoreCompileInputs.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\Data Binding Combo Box - Enum\obj\Debug\Data Binding Combo Box - Enum.pdb

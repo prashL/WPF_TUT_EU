@@ -1,0 +1,49 @@
+﻿<Window 
+    x:Class="Data_Binding_Combo_Box___Enum.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Data_Binding_Combo_Box___Enum"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    >
+    <!--TODO: Step 4: Add sys reference in order for the system to
+    recognize enum as a keyword-->
+    <!--TODO: Step 2: Add the window resources this is where the 
+    ObjectDataProvider is defined. We could also define this in the
+    Grid.Resources section, the only difference then is that only the
+    child elements of the grid would be able to access it. This way the
+    entrie window can access it
+    --> 
+    <Window.Resources>
+        <!--TODO: Step 3: Add the ObjectDataProvider-->
+        <!--Wraps and creates an object that you can use as a binding source.-->
+        <!--It is the bringe that connects the combo box to enum-->
+        <!--This code call GetNames method that is part of the every enum-->
+        <!--ObjectDataProvider.MethodParameters is acutally the parameters
+        passed to the fucntion call like so GetNames(Taste)
+        -->
+        <ObjectDataProvider x:Key="odpTaste"
+                            ObjectType="{x:Type sys:Enum}"
+                            MethodName="GetNames">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:Taste"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <!--TODO: Step 5: Add main grid and stack panel
+    the stack panel in this case is used so that the
+    combobox doesn't take up the whole view -->
+    <Grid>
+        <StackPanel>
+            <!--TODO: Step 6: Create the combox box and bind it to the object
+            ObjectDataProvider defined above-->
+            <ComboBox
+                FontSize="30"
+                ItemsSource="{Binding Source={StaticResource odpTaste}}"
+            />
+        </StackPanel>
+    </Grid>
+</Window>
